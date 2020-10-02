@@ -1,13 +1,15 @@
 <template>
-  <div id="app">
+  <div>
+    <h1>todoInput</h1>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'App',
+
 }
 </script>
 
 <style>
+
 </style>
