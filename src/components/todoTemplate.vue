@@ -1,11 +1,18 @@
 <template>
   <div>
-    <h1>todoTemplate</h1>
+    <h1>TodoTemplate</h1>
+    <todoInput />
   </div>
 </template>
 
 <script>
+import TodoInput from './TodoInput'
+
 export default {
+  name: "TodoTemplate",
+  components: {
+    TodoInput,
+  }
 
 }
 </script>
