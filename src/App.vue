@@ -16,4 +16,12 @@ export default {
 </script>
 
 <style>
+body {
+  margin: 0;
+  background-color: #fffcf0;
+}
+#app {
+  display: flex;
+  justify-content: center;
+}
 </style>
