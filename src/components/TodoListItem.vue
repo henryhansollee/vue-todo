@@ -1,6 +1,8 @@
 <template>
-  <div>
-    <h1>todoListItem</h1>
+  <div class="TodoListItem">
+    <input type="checkbox">
+    <small>하하하</small>
+    <button>X</button>
   </div>
 </template>
 
@@ -12,5 +14,7 @@ export default {
 </script>
 
 <style>
-
+.TodoListItem {
+  display: flex;
+}
 </style>

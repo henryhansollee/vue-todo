@@ -1,12 +1,12 @@
 <template>
-  <div>
-    <h1>todoList</h1>
+  <div class="TodoList">
     <TodoListItem />
   </div>
 </template>
 
 <script>
 import TodoListItem from './TodoListItem'
+
 export default {
   name: "TodoList",
   components: {
@@ -16,5 +16,7 @@ export default {
 </script>
 
 <style>
-
+.TodoList {
+  background-color: #a5dff9;
+}
 </style>
