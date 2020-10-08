@@ -25,7 +25,8 @@ export default {
 .TodoTemplate {
   background-color: #60c5ba;
   margin-top: 10%;
-  width: 25%;
+  width: 30%;
+  min-height: 500px;
 }
 .todo-title {
   text-align: center;
